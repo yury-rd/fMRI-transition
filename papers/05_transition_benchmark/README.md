@@ -3,6 +3,12 @@
 Code and data for *Evaluating State-Transition Models in Short Resting-State
 fMRI with Continuous-Dynamics Controls*.
 
+Aleksandr Volkov, Yury Maximov, Tamoghna Chattopadhyay, Paul M. Thompson, and
+Ildar Gabitov.
+
+Under review at the [2027 IEEE International Symposium on Biomedical Imaging
+(ISBI 2027)](https://biomedicalimaging.org/2027/).
+
 The dataset has 216 latent realizations and four observation branches per
 realization, giving 864 conditions. The generators are cyclic and reversible
 three-state processes at two amplitudes, a common-factor AR process, and a

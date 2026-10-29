@@ -7,6 +7,13 @@ scores and estimated state-transition flux.
 
 This repository contains the code and data for *Evaluating State-Transition
 Models in Short Resting-State fMRI with Continuous-Dynamics Controls*.
+
+Aleksandr Volkov, Yury Maximov, Tamoghna Chattopadhyay, Paul M. Thompson, and
+Ildar Gabitov.
+
+Under review at the [2027 IEEE International Symposium on Biomedical Imaging
+(ISBI 2027)](https://biomedicalimaging.org/2027/).
+
 It includes the shared Python library needed to run the benchmark.
 
 ## Run the benchmark
