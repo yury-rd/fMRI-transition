@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_entrypoints": true,
+    "msc_saved_mean_replay": true,
+    "synthetic_generator_replay": true,
+    "saved_candidate_score_replay": true
+  },
+  "runs": [
+    {
+      "name": "unit_tests",
+      "exit_code": 0
+    },
+    {
+      "name": "01_response_transfer",
+      "exit_code": 0
+    },
+    {
+      "name": "01_response_transfer_summary",
+      "exit_code": 0
+    },
+    {
+      "name": "02_temporal_surrogates",
+      "exit_code": 0
+    },
+    {
+      "name": "02_temporal_surrogates_summary",
+      "exit_code": 0
+    },
+    {
+      "name": "03_clinical_response",
+      "exit_code": 0
+    },
+    {
+      "name": "03_clinical_response_summary",
+      "exit_code": 0
+    },
+    {
+      "name": "04_mci_forecast",
+      "exit_code": 0
+    },
+    {
+      "name": "04_mci_forecast_summary",
+      "exit_code": 0
+    },
+    {
+      "name": "05_transition_benchmark",
+      "exit_code": 0
+    },
+    {
+      "name": "05_transition_benchmark_summary",
+      "exit_code": 0
+    },
+    {
+      "name": "msc_replay",
+      "exit_code": 0
+    },
+    {
+      "name": "transition_full_case",
+      "exit_code": 0
+    }
+  ],
+  "msc_maximum_mean_error": 0.0,
+  "transition_maximum_score_error": 0.0,
+  "seconds": 17.716086500004167,
+  "scope": "Public software packaging; synthetic fixtures and existing MSC transport replay; no ADNI participant inputs"
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "source": "three_gates.py",
+    "source_sha256": "56d0fbfa714dee803b465264cfb369d4532fe17faf378a719b0a8f542e67853e",
+    "export": "src/fmri_observation/response.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. fields, statistics, fit, lopo, cosine, earlyscore, losses, contrast"
+  },
+  {
+    "source": "participant_operator_atlas.py",
+    "source_sha256": "f5e8cdba5a9b0d17db7b9b11830a84eda4a95249924ef3ccd18b694ff03ea314",
+    "export": "src/fmri_observation/participant_operator_atlas.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. _responses, _indices, _ridge_predict"
+  },
+  {
+    "source": "participant_operator_atlas_complete.py",
+    "source_sha256": "e5fe75ddcdf81cadcc52b97409365a6f4f8ed7633c0ed59096357d297a85d383",
+    "export": "src/fmri_observation/participant_operator_atlas_complete.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "locked_adni_mean_history.npy",
+    "source_sha256": "7eeb83f371af9c84baaa9f937e60ca04b4de135f72bacbfc7180bab8113d7372",
+    "export": "papers/01_response_transfer/data/locked_adni_mean_history.npy",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "locked_adni_mean_target.npy",
+    "source_sha256": "f94d840ce49fe1e52fde6b7819aa56669caccc8ac3c2163fe0a2d16b9a633724",
+    "export": "papers/01_response_transfer/data/locked_adni_mean_target.npy",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "methods.py",
+    "source_sha256": "f854bdaa52c08a12b0a84280dc0d117a92a4a1cf6c1c9850bcee7f1252ff2b46",
+    "export": "src/fmri_observation/surrogates.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "campaign.py",
+    "source_sha256": "c7cbf14500c71c073c56c40c4a5bad353921988036db5026109f7d6c72f3cd26",
+    "export": "src/fmri_observation/surrogate_support.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. measurement, vectors"
+  },
+  {
+    "source": "summary.json",
+    "source_sha256": "3cbd457c940b60ae4984858bf6e206239e6871df038953fb62b32e1b35674e6c",
+    "export": "papers/02_temporal_surrogates/data/iaaft_aggregate.json",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "summary.json",
+    "source_sha256": "5b33103e0e772461861c283f6d0ca6710d9c7852688d3a54e2da7c3e58f02052",
+    "export": "papers/02_temporal_surrogates/data/iaaft_calibration_aggregate.json",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "summary.json",
+    "source_sha256": "c6e8699535ed301ecda9a8c100535aff6da7d0b69fb45dde47d154e8e81b0bba",
+    "export": "papers/02_temporal_surrogates/data/common_phase_aggregate.json",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "score_core.py",
+    "source_sha256": "e1a00d84db7e1c58a75d246d5e0ed6615f2140c50bed9ebca01a748fd6dcc4ec",
+    "export": "src/fmri_observation/score.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "dct_c1.py",
+    "source_sha256": "b3a26815a954e80cab7e130c248fc954f0390457533de1c038a76692077b130e",
+    "export": "src/fmri_observation/paired.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. normalize_mask, paired_fields"
+  },
+  {
+    "source": "model.py",
+    "source_sha256": "a5e8d171ac6c25b2093d356ec17391acb46aa0b4ea2323c767c4fe81691947a6",
+    "export": "src/fmri_observation/mechanisms.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. array_hash, ar_from_innovations, ar, bank, world, score, summarize_replicates"
+  },
+  {
+    "source": "e1_adapter.py",
+    "source_sha256": "f9000e0dc58309a24200a448b6fab6dc5831613463b0b2d5166c20f437f43888",
+    "export": "src/fmri_observation/lag_control.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. finite_matrix, lag_world"
+  },
+  {
+    "source": "aggregate_results.json",
+    "source_sha256": "4a8b9937fb2cc2c5d946e5e43326eb4416e00a196455daaf1cba35ba54cb3338",
+    "export": "papers/03_clinical_response/data/aggregate_results.json",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "display_units.json",
+    "source_sha256": "316ed424b47048b5f0336c51abf3b0ea9af0e15a1a89c6fc63d27a7b364b0d80",
+    "export": "papers/03_clinical_response/data/lag_aggregate.json",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "learning.py",
+    "source_sha256": "401d1abefdcabced450e4c3b6672ab0f50d596b88dfd24d3d83f94b5710998a8",
+    "export": "src/fmri_observation/learning.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "measurement.py",
+    "source_sha256": "43023e26da9a6ed01abfc45d5f690a674d87ad35f4c8c1386ce1c911d47d29fc",
+    "export": "src/fmri_observation/connectivity.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "fc_measurement.py",
+    "source_sha256": "f89beb5c707dcc03fb5895aa563d97517b7a84a17faf9ead53b48b9b36aec316",
+    "export": "src/fmri_observation/fc_windows.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "RESULTS.json",
+    "source_sha256": "b246d0176764af45f7238487eca995d62fb36f5c1c06245555a813c6f61b7acd",
+    "export": "papers/04_mci_forecast/data/aggregate_results.json",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "SPLITS.json",
+    "source_sha256": "d8b72595203b3a6ee6cf8dfd68a59ed5d1bd1f6a526565a030ff79338c8e3074",
+    "export": "papers/04_mci_forecast/data/row_index_splits.json",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "qualification_core.py",
+    "source_sha256": "35ded04a66157478c951437cb20641dd58f9e2b3277445fbb2629e11f6232460",
+    "export": "src/fmri_observation/forecast.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. fixture, candidate_profile, candidate_model"
+  },
+  {
+    "source": "qualify_scoring.py",
+    "source_sha256": "4411055750a304752b13ce0abead98b3119b6d5fb651ec59886167a8edf57125",
+    "export": "src/fmri_observation/scoring.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. transform, safe_log, hmm_frames, var_frames"
+  },
+  {
+    "source": "learner.py",
+    "source_sha256": "b3e636b13e57ebe5109844adb99c906b97628852019b8d0c9d2cb7e6d3226d52",
+    "export": "src/fmri_observation/learner.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "observation.py",
+    "source_sha256": "729b03af711f4247ac5173a997d62ef7ede9406668a3458cd5e25fa77917e631",
+    "export": "src/fmri_observation/observation.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "var_high_precision.py",
+    "source_sha256": "eb505b1f304a9d9c179c72c27dbbebdea00296c2e3da043897caa07201f98673",
+    "export": "src/fmri_observation/var_high_precision.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "campaign.py",
+    "source_sha256": "e15a5f73066e7f72c198d921786636d49c6c15e163aedaa6c40c865611d94ed5",
+    "export": "src/fmri_observation/transitions.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. simulate, observe, hmm_candidate, var_candidate, select"
+  }
+]
