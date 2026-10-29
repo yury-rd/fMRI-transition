@@ -6,8 +6,7 @@ how observation filters and changes in measurement units affect predictive
 scores and estimated state-transition flux.
 
 This repository contains the code and data for *Evaluating State-Transition
-Models in Short Resting-State fMRI with Continuous-Dynamics Controls*, from
-[fMRI Observation Benchmarks v1.0.0](https://github.com/cornada/fmri-observation-benchmarks/tree/v1.0.0/papers/05_transition_benchmark).
+Models in Short Resting-State fMRI with Continuous-Dynamics Controls*.
 It includes the shared Python library needed to run the benchmark.
 
 ## Run the benchmark
@@ -60,16 +59,8 @@ the shared implementation is in [src/fmri_observation](src/fmri_observation).
 Fitted HMM flux alone does not establish that the underlying physiology has
 discrete states; the continuous generators provide controls for that interpretation.
 
-## Source and license
-
-Copied from the paper-specific v1.0.0 release of
-[cornada/fmri-observation-benchmarks](https://github.com/cornada/fmri-observation-benchmarks).
-The benchmark code and data retain the upstream implementation; this copy
-updates the repository description and documentation.
+## License and citation
 
 Code and synthetic data are available under the [MIT license](LICENSE).
-See [CITATION.md](CITATION.md) for the source citation and
+See [CITATION.md](CITATION.md) for citation details and
 [DATA_LICENSES.md](DATA_LICENSES.md) for data details.
-
-`SOURCE_PROVENANCE.json` and `VERIFICATION.json` preserve the upstream
-source records and verification report for the original five-paper release.
