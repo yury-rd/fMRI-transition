@@ -18,15 +18,15 @@ for 13,824 saved fits.
 ## Running the examples
 
 Run these commands from the repository root after following the
-[installation instructions](../../README.md#run-the-benchmark).
+[installation instructions](../README.md#quick-start).
 
 ```sh
 # Two-candidate executable example, compared with saved scores:
-python papers/05_transition_benchmark/run.py --output results/transition_demo.json
+python transition_benchmark/run.py --output results/transition_demo.json
 # The complete 64-candidate menu for one latent realization and its four branches:
-python papers/05_transition_benchmark/run.py --mode case --case cyclic_N97_A1.0_S101 --output results/transition_case.json
+python transition_benchmark/run.py --mode case --case cyclic_N97_A1.0_S101 --output results/transition_case.json
 # All saved condition-level readouts, without refitting:
-python papers/05_transition_benchmark/run.py --mode summary --output results/transition_results.json
+python transition_benchmark/run.py --mode summary --output results/transition_results.json
 ```
 
 The runner checks whether the generated observations exactly match the saved

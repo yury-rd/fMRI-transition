@@ -1,0 +1,32 @@
+[
+  {
+    "source": "qualify_scoring.py",
+    "source_sha256": "4411055750a304752b13ce0abead98b3119b6d5fb651ec59886167a8edf57125",
+    "export": "fmri_observations/scoring.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. transform, safe_log, hmm_frames, var_frames"
+  },
+  {
+    "source": "learner.py",
+    "source_sha256": "b3e636b13e57ebe5109844adb99c906b97628852019b8d0c9d2cb7e6d3226d52",
+    "export": "fmri_observations/learner.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "observation.py",
+    "source_sha256": "729b03af711f4247ac5173a997d62ef7ede9406668a3458cd5e25fa77917e631",
+    "export": "fmri_observations/observation.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "var_high_precision.py",
+    "source_sha256": "eb505b1f304a9d9c179c72c27dbbebdea00296c2e3da043897caa07201f98673",
+    "export": "fmri_observations/var_high_precision.py",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "campaign.py",
+    "source_sha256": "e15a5f73066e7f72c198d921786636d49c6c15e163aedaa6c40c865611d94ed5",
+    "export": "fmri_observations/transitions.py",
+    "adaptation": "Named definitions preserved; portable imports and entry points. simulate, observe, hmm_candidate, var_candidate, select"
+  }
+]
