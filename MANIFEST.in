@@ -1,0 +1,6 @@
+include requirements-repro.txt CITATION.md DATA_LICENSES.md
+include transition_benchmark/config.json transition_benchmark/run.py transition_benchmark/README.md
+include tests/verify_reproduction.py
+prune transition_benchmark/data
+exclude transition_benchmark/VERIFICATION.json
+recursive-exclude * __pycache__ *.py[cod]

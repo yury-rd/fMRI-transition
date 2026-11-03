@@ -1,0 +1,1668 @@
+{
+  "schema_version": 1,
+  "production_seeds": [
+    101,
+    211,
+    307
+  ],
+  "pilot_seed": 79,
+  "lengths": [
+    97,
+    98,
+    99,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    159,
+    197,
+    480
+  ],
+  "states": [
+    3,
+    6
+  ],
+  "var_orders": [
+    1,
+    3
+  ],
+  "filter_order": [
+    "none",
+    "scalar_035",
+    "scalar_065",
+    "lag1"
+  ],
+  "observation_alpha": [
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.75
+  ],
+  "unit_scale": [
+    0.125,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "generators": {
+    "means": [
+      [
+        1.4,
+        0.7,
+        -0.7,
+        -0.3,
+        0.2,
+        0.9,
+        -0.4
+      ],
+      [
+        -0.5,
+        1.1,
+        0.8,
+        -0.8,
+        0.7,
+        -0.6,
+        0.4
+      ],
+      [
+        -0.9,
+        -0.4,
+        -0.1,
+        1.1,
+        -0.9,
+        -0.3,
+        1.0
+      ]
+    ],
+    "cyclic": {
+      "transition": [
+        [
+          0.82,
+          0.16,
+          0.02
+        ],
+        [
+          0.02,
+          0.82,
+          0.16
+        ],
+        [
+          0.16,
+          0.02,
+          0.82
+        ]
+      ]
+    },
+    "reversible": {
+      "transition": [
+        [
+          0.82,
+          0.09,
+          0.09
+        ],
+        [
+          0.09,
+          0.82,
+          0.09
+        ],
+        [
+          0.09,
+          0.09,
+          0.82
+        ]
+      ]
+    }
+  },
+  "pilot_cases": [
+    {
+      "id": "cyclic_N97_A1.0_S79",
+      "world": "cyclic",
+      "N": 97,
+      "amplitude": 1.0,
+      "seed": 79
+    },
+    {
+      "id": "reversible_N97_A1.0_S79",
+      "world": "reversible",
+      "N": 97,
+      "amplitude": 1.0,
+      "seed": 79
+    },
+    {
+      "id": "common_ar_N197_Anone_S79",
+      "world": "common_ar",
+      "N": 197,
+      "amplitude": null,
+      "seed": 79
+    },
+    {
+      "id": "rotating_ar_N197_Anone_S79",
+      "world": "rotating_ar",
+      "N": 197,
+      "amplitude": null,
+      "seed": 79
+    }
+  ],
+  "production_cases": [
+    {
+      "id": "cyclic_N97_A1.0_S101",
+      "world": "cyclic",
+      "N": 97,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N97_A1.0_S211",
+      "world": "cyclic",
+      "N": 97,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N97_A1.0_S307",
+      "world": "cyclic",
+      "N": 97,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N97_A0.55_S101",
+      "world": "cyclic",
+      "N": 97,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N97_A0.55_S211",
+      "world": "cyclic",
+      "N": 97,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N97_A0.55_S307",
+      "world": "cyclic",
+      "N": 97,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N98_A1.0_S101",
+      "world": "cyclic",
+      "N": 98,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N98_A1.0_S211",
+      "world": "cyclic",
+      "N": 98,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N98_A1.0_S307",
+      "world": "cyclic",
+      "N": 98,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N98_A0.55_S101",
+      "world": "cyclic",
+      "N": 98,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N98_A0.55_S211",
+      "world": "cyclic",
+      "N": 98,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N98_A0.55_S307",
+      "world": "cyclic",
+      "N": 98,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N99_A1.0_S101",
+      "world": "cyclic",
+      "N": 99,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N99_A1.0_S211",
+      "world": "cyclic",
+      "N": 99,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N99_A1.0_S307",
+      "world": "cyclic",
+      "N": 99,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N99_A0.55_S101",
+      "world": "cyclic",
+      "N": 99,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N99_A0.55_S211",
+      "world": "cyclic",
+      "N": 99,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N99_A0.55_S307",
+      "world": "cyclic",
+      "N": 99,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N135_A1.0_S101",
+      "world": "cyclic",
+      "N": 135,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N135_A1.0_S211",
+      "world": "cyclic",
+      "N": 135,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N135_A1.0_S307",
+      "world": "cyclic",
+      "N": 135,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N135_A0.55_S101",
+      "world": "cyclic",
+      "N": 135,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N135_A0.55_S211",
+      "world": "cyclic",
+      "N": 135,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N135_A0.55_S307",
+      "world": "cyclic",
+      "N": 135,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N136_A1.0_S101",
+      "world": "cyclic",
+      "N": 136,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N136_A1.0_S211",
+      "world": "cyclic",
+      "N": 136,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N136_A1.0_S307",
+      "world": "cyclic",
+      "N": 136,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N136_A0.55_S101",
+      "world": "cyclic",
+      "N": 136,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N136_A0.55_S211",
+      "world": "cyclic",
+      "N": 136,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N136_A0.55_S307",
+      "world": "cyclic",
+      "N": 136,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N137_A1.0_S101",
+      "world": "cyclic",
+      "N": 137,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N137_A1.0_S211",
+      "world": "cyclic",
+      "N": 137,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N137_A1.0_S307",
+      "world": "cyclic",
+      "N": 137,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N137_A0.55_S101",
+      "world": "cyclic",
+      "N": 137,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N137_A0.55_S211",
+      "world": "cyclic",
+      "N": 137,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N137_A0.55_S307",
+      "world": "cyclic",
+      "N": 137,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N138_A1.0_S101",
+      "world": "cyclic",
+      "N": 138,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N138_A1.0_S211",
+      "world": "cyclic",
+      "N": 138,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N138_A1.0_S307",
+      "world": "cyclic",
+      "N": 138,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N138_A0.55_S101",
+      "world": "cyclic",
+      "N": 138,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N138_A0.55_S211",
+      "world": "cyclic",
+      "N": 138,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N138_A0.55_S307",
+      "world": "cyclic",
+      "N": 138,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N139_A1.0_S101",
+      "world": "cyclic",
+      "N": 139,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N139_A1.0_S211",
+      "world": "cyclic",
+      "N": 139,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N139_A1.0_S307",
+      "world": "cyclic",
+      "N": 139,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N139_A0.55_S101",
+      "world": "cyclic",
+      "N": 139,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N139_A0.55_S211",
+      "world": "cyclic",
+      "N": 139,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N139_A0.55_S307",
+      "world": "cyclic",
+      "N": 139,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N140_A1.0_S101",
+      "world": "cyclic",
+      "N": 140,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N140_A1.0_S211",
+      "world": "cyclic",
+      "N": 140,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N140_A1.0_S307",
+      "world": "cyclic",
+      "N": 140,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N140_A0.55_S101",
+      "world": "cyclic",
+      "N": 140,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N140_A0.55_S211",
+      "world": "cyclic",
+      "N": 140,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N140_A0.55_S307",
+      "world": "cyclic",
+      "N": 140,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N159_A1.0_S101",
+      "world": "cyclic",
+      "N": 159,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N159_A1.0_S211",
+      "world": "cyclic",
+      "N": 159,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N159_A1.0_S307",
+      "world": "cyclic",
+      "N": 159,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N159_A0.55_S101",
+      "world": "cyclic",
+      "N": 159,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N159_A0.55_S211",
+      "world": "cyclic",
+      "N": 159,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N159_A0.55_S307",
+      "world": "cyclic",
+      "N": 159,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N197_A1.0_S101",
+      "world": "cyclic",
+      "N": 197,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N197_A1.0_S211",
+      "world": "cyclic",
+      "N": 197,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N197_A1.0_S307",
+      "world": "cyclic",
+      "N": 197,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N197_A0.55_S101",
+      "world": "cyclic",
+      "N": 197,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N197_A0.55_S211",
+      "world": "cyclic",
+      "N": 197,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N197_A0.55_S307",
+      "world": "cyclic",
+      "N": 197,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N480_A1.0_S101",
+      "world": "cyclic",
+      "N": 480,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N480_A1.0_S211",
+      "world": "cyclic",
+      "N": 480,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N480_A1.0_S307",
+      "world": "cyclic",
+      "N": 480,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "cyclic_N480_A0.55_S101",
+      "world": "cyclic",
+      "N": 480,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "cyclic_N480_A0.55_S211",
+      "world": "cyclic",
+      "N": 480,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "cyclic_N480_A0.55_S307",
+      "world": "cyclic",
+      "N": 480,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N97_A1.0_S101",
+      "world": "reversible",
+      "N": 97,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N97_A1.0_S211",
+      "world": "reversible",
+      "N": 97,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N97_A1.0_S307",
+      "world": "reversible",
+      "N": 97,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N97_A0.55_S101",
+      "world": "reversible",
+      "N": 97,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N97_A0.55_S211",
+      "world": "reversible",
+      "N": 97,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N97_A0.55_S307",
+      "world": "reversible",
+      "N": 97,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N98_A1.0_S101",
+      "world": "reversible",
+      "N": 98,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N98_A1.0_S211",
+      "world": "reversible",
+      "N": 98,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N98_A1.0_S307",
+      "world": "reversible",
+      "N": 98,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N98_A0.55_S101",
+      "world": "reversible",
+      "N": 98,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N98_A0.55_S211",
+      "world": "reversible",
+      "N": 98,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N98_A0.55_S307",
+      "world": "reversible",
+      "N": 98,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N99_A1.0_S101",
+      "world": "reversible",
+      "N": 99,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N99_A1.0_S211",
+      "world": "reversible",
+      "N": 99,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N99_A1.0_S307",
+      "world": "reversible",
+      "N": 99,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N99_A0.55_S101",
+      "world": "reversible",
+      "N": 99,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N99_A0.55_S211",
+      "world": "reversible",
+      "N": 99,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N99_A0.55_S307",
+      "world": "reversible",
+      "N": 99,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N135_A1.0_S101",
+      "world": "reversible",
+      "N": 135,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N135_A1.0_S211",
+      "world": "reversible",
+      "N": 135,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N135_A1.0_S307",
+      "world": "reversible",
+      "N": 135,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N135_A0.55_S101",
+      "world": "reversible",
+      "N": 135,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N135_A0.55_S211",
+      "world": "reversible",
+      "N": 135,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N135_A0.55_S307",
+      "world": "reversible",
+      "N": 135,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N136_A1.0_S101",
+      "world": "reversible",
+      "N": 136,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N136_A1.0_S211",
+      "world": "reversible",
+      "N": 136,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N136_A1.0_S307",
+      "world": "reversible",
+      "N": 136,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N136_A0.55_S101",
+      "world": "reversible",
+      "N": 136,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N136_A0.55_S211",
+      "world": "reversible",
+      "N": 136,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N136_A0.55_S307",
+      "world": "reversible",
+      "N": 136,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N137_A1.0_S101",
+      "world": "reversible",
+      "N": 137,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N137_A1.0_S211",
+      "world": "reversible",
+      "N": 137,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N137_A1.0_S307",
+      "world": "reversible",
+      "N": 137,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N137_A0.55_S101",
+      "world": "reversible",
+      "N": 137,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N137_A0.55_S211",
+      "world": "reversible",
+      "N": 137,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N137_A0.55_S307",
+      "world": "reversible",
+      "N": 137,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N138_A1.0_S101",
+      "world": "reversible",
+      "N": 138,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N138_A1.0_S211",
+      "world": "reversible",
+      "N": 138,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N138_A1.0_S307",
+      "world": "reversible",
+      "N": 138,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N138_A0.55_S101",
+      "world": "reversible",
+      "N": 138,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N138_A0.55_S211",
+      "world": "reversible",
+      "N": 138,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N138_A0.55_S307",
+      "world": "reversible",
+      "N": 138,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N139_A1.0_S101",
+      "world": "reversible",
+      "N": 139,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N139_A1.0_S211",
+      "world": "reversible",
+      "N": 139,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N139_A1.0_S307",
+      "world": "reversible",
+      "N": 139,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N139_A0.55_S101",
+      "world": "reversible",
+      "N": 139,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N139_A0.55_S211",
+      "world": "reversible",
+      "N": 139,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N139_A0.55_S307",
+      "world": "reversible",
+      "N": 139,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N140_A1.0_S101",
+      "world": "reversible",
+      "N": 140,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N140_A1.0_S211",
+      "world": "reversible",
+      "N": 140,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N140_A1.0_S307",
+      "world": "reversible",
+      "N": 140,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N140_A0.55_S101",
+      "world": "reversible",
+      "N": 140,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N140_A0.55_S211",
+      "world": "reversible",
+      "N": 140,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N140_A0.55_S307",
+      "world": "reversible",
+      "N": 140,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N159_A1.0_S101",
+      "world": "reversible",
+      "N": 159,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N159_A1.0_S211",
+      "world": "reversible",
+      "N": 159,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N159_A1.0_S307",
+      "world": "reversible",
+      "N": 159,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N159_A0.55_S101",
+      "world": "reversible",
+      "N": 159,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N159_A0.55_S211",
+      "world": "reversible",
+      "N": 159,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N159_A0.55_S307",
+      "world": "reversible",
+      "N": 159,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N197_A1.0_S101",
+      "world": "reversible",
+      "N": 197,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N197_A1.0_S211",
+      "world": "reversible",
+      "N": 197,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N197_A1.0_S307",
+      "world": "reversible",
+      "N": 197,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N197_A0.55_S101",
+      "world": "reversible",
+      "N": 197,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N197_A0.55_S211",
+      "world": "reversible",
+      "N": 197,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N197_A0.55_S307",
+      "world": "reversible",
+      "N": 197,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N480_A1.0_S101",
+      "world": "reversible",
+      "N": 480,
+      "amplitude": 1.0,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N480_A1.0_S211",
+      "world": "reversible",
+      "N": 480,
+      "amplitude": 1.0,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N480_A1.0_S307",
+      "world": "reversible",
+      "N": 480,
+      "amplitude": 1.0,
+      "seed": 307
+    },
+    {
+      "id": "reversible_N480_A0.55_S101",
+      "world": "reversible",
+      "N": 480,
+      "amplitude": 0.55,
+      "seed": 101
+    },
+    {
+      "id": "reversible_N480_A0.55_S211",
+      "world": "reversible",
+      "N": 480,
+      "amplitude": 0.55,
+      "seed": 211
+    },
+    {
+      "id": "reversible_N480_A0.55_S307",
+      "world": "reversible",
+      "N": 480,
+      "amplitude": 0.55,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N97_Anone_S101",
+      "world": "common_ar",
+      "N": 97,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N97_Anone_S211",
+      "world": "common_ar",
+      "N": 97,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N97_Anone_S307",
+      "world": "common_ar",
+      "N": 97,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N98_Anone_S101",
+      "world": "common_ar",
+      "N": 98,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N98_Anone_S211",
+      "world": "common_ar",
+      "N": 98,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N98_Anone_S307",
+      "world": "common_ar",
+      "N": 98,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N99_Anone_S101",
+      "world": "common_ar",
+      "N": 99,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N99_Anone_S211",
+      "world": "common_ar",
+      "N": 99,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N99_Anone_S307",
+      "world": "common_ar",
+      "N": 99,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N135_Anone_S101",
+      "world": "common_ar",
+      "N": 135,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N135_Anone_S211",
+      "world": "common_ar",
+      "N": 135,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N135_Anone_S307",
+      "world": "common_ar",
+      "N": 135,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N136_Anone_S101",
+      "world": "common_ar",
+      "N": 136,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N136_Anone_S211",
+      "world": "common_ar",
+      "N": 136,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N136_Anone_S307",
+      "world": "common_ar",
+      "N": 136,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N137_Anone_S101",
+      "world": "common_ar",
+      "N": 137,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N137_Anone_S211",
+      "world": "common_ar",
+      "N": 137,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N137_Anone_S307",
+      "world": "common_ar",
+      "N": 137,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N138_Anone_S101",
+      "world": "common_ar",
+      "N": 138,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N138_Anone_S211",
+      "world": "common_ar",
+      "N": 138,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N138_Anone_S307",
+      "world": "common_ar",
+      "N": 138,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N139_Anone_S101",
+      "world": "common_ar",
+      "N": 139,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N139_Anone_S211",
+      "world": "common_ar",
+      "N": 139,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N139_Anone_S307",
+      "world": "common_ar",
+      "N": 139,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N140_Anone_S101",
+      "world": "common_ar",
+      "N": 140,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N140_Anone_S211",
+      "world": "common_ar",
+      "N": 140,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N140_Anone_S307",
+      "world": "common_ar",
+      "N": 140,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N159_Anone_S101",
+      "world": "common_ar",
+      "N": 159,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N159_Anone_S211",
+      "world": "common_ar",
+      "N": 159,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N159_Anone_S307",
+      "world": "common_ar",
+      "N": 159,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N197_Anone_S101",
+      "world": "common_ar",
+      "N": 197,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N197_Anone_S211",
+      "world": "common_ar",
+      "N": 197,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N197_Anone_S307",
+      "world": "common_ar",
+      "N": 197,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "common_ar_N480_Anone_S101",
+      "world": "common_ar",
+      "N": 480,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "common_ar_N480_Anone_S211",
+      "world": "common_ar",
+      "N": 480,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "common_ar_N480_Anone_S307",
+      "world": "common_ar",
+      "N": 480,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N97_Anone_S101",
+      "world": "rotating_ar",
+      "N": 97,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N97_Anone_S211",
+      "world": "rotating_ar",
+      "N": 97,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N97_Anone_S307",
+      "world": "rotating_ar",
+      "N": 97,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N98_Anone_S101",
+      "world": "rotating_ar",
+      "N": 98,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N98_Anone_S211",
+      "world": "rotating_ar",
+      "N": 98,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N98_Anone_S307",
+      "world": "rotating_ar",
+      "N": 98,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N99_Anone_S101",
+      "world": "rotating_ar",
+      "N": 99,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N99_Anone_S211",
+      "world": "rotating_ar",
+      "N": 99,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N99_Anone_S307",
+      "world": "rotating_ar",
+      "N": 99,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N135_Anone_S101",
+      "world": "rotating_ar",
+      "N": 135,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N135_Anone_S211",
+      "world": "rotating_ar",
+      "N": 135,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N135_Anone_S307",
+      "world": "rotating_ar",
+      "N": 135,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N136_Anone_S101",
+      "world": "rotating_ar",
+      "N": 136,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N136_Anone_S211",
+      "world": "rotating_ar",
+      "N": 136,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N136_Anone_S307",
+      "world": "rotating_ar",
+      "N": 136,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N137_Anone_S101",
+      "world": "rotating_ar",
+      "N": 137,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N137_Anone_S211",
+      "world": "rotating_ar",
+      "N": 137,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N137_Anone_S307",
+      "world": "rotating_ar",
+      "N": 137,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N138_Anone_S101",
+      "world": "rotating_ar",
+      "N": 138,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N138_Anone_S211",
+      "world": "rotating_ar",
+      "N": 138,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N138_Anone_S307",
+      "world": "rotating_ar",
+      "N": 138,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N139_Anone_S101",
+      "world": "rotating_ar",
+      "N": 139,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N139_Anone_S211",
+      "world": "rotating_ar",
+      "N": 139,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N139_Anone_S307",
+      "world": "rotating_ar",
+      "N": 139,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N140_Anone_S101",
+      "world": "rotating_ar",
+      "N": 140,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N140_Anone_S211",
+      "world": "rotating_ar",
+      "N": 140,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N140_Anone_S307",
+      "world": "rotating_ar",
+      "N": 140,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N159_Anone_S101",
+      "world": "rotating_ar",
+      "N": 159,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N159_Anone_S211",
+      "world": "rotating_ar",
+      "N": 159,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N159_Anone_S307",
+      "world": "rotating_ar",
+      "N": 159,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N197_Anone_S101",
+      "world": "rotating_ar",
+      "N": 197,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N197_Anone_S211",
+      "world": "rotating_ar",
+      "N": 197,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N197_Anone_S307",
+      "world": "rotating_ar",
+      "N": 197,
+      "amplitude": null,
+      "seed": 307
+    },
+    {
+      "id": "rotating_ar_N480_Anone_S101",
+      "world": "rotating_ar",
+      "N": 480,
+      "amplitude": null,
+      "seed": 101
+    },
+    {
+      "id": "rotating_ar_N480_Anone_S211",
+      "world": "rotating_ar",
+      "N": 480,
+      "amplitude": null,
+      "seed": 211
+    },
+    {
+      "id": "rotating_ar_N480_Anone_S307",
+      "world": "rotating_ar",
+      "N": 480,
+      "amplitude": null,
+      "seed": 307
+    }
+  ]
+}

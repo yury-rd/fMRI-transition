@@ -1,0 +1,4 @@
+[submodule "data"]
+	path = transition_benchmark/data
+	url = https://github.com/yury-rd/fMRI-transition-data.git
+	branch = data
